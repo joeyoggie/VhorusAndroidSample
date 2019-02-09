@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AndroidSample</string>
+
+
+    <string name="location">Location</string>
+    <string name="no_locations">No locations added yet.</string>
+    <string name="location_details">Location Details</string>
+    <string name="location_name">Name</string>
+    <string name="location_date">Date</string>
+    <string name="location_latitude">Latitude</string>
+    <string name="location_longitude">Longitude</string>
+    <string name="location_altitude">Altitude</string>
+
+    <string name="location_name_colon">Name:</string>
+    <string name="location_date_colon">Date:</string>
+    <string name="location_latitude_colon">Latitude:</string>
+    <string name="location_longitude_colon">Longitude:</string>
+    <string name="location_altitude_colon">Altitude:</string>
+
+    <string name="add_location">Add Location</string>
+    <string name="current_latitude">Current Latitude</string>
+    <string name="current_longitude">Current Longitude</string>
+    <string name="current_altitude">Current Altitude</string>
+    <string name="current_timestamp">Current Date</string>
+
+    <string name="location_name_message">Please enter a name for this location</string>
+
+    <string name="remove_location_question">Remove location?</string>
+    <string name="remove_location_message">Removing a location cannot be undone</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="location_required_title">Location Services</string>
+    <string name="location_required_message">To continue using this feature, Location Services must be turned on</string>
+    <string name="go_to_location_settings">Go to Location settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

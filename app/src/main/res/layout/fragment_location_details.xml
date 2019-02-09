@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LocationDetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor">
+
+        <TextView
+            android:id="@+id/location_name_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:hint="@string/location_name_colon"/>
+
+        <TextView
+            android:id="@+id/location_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/location_name_static_textview"
+            android:textSize="18sp"
+            android:hint="LocationName"/>
+
+        <TextView
+            android:id="@+id/location_timestamp_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/location_name_textview"
+            android:textSize="18sp"
+            android:hint="@string/location_date_colon"/>
+
+        <TextView
+            android:id="@+id/location_timestamp_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/location_timestamp_static_textview"
+            android:textSize="18sp"
+            android:hint="Timestamp"/>
+
+        <TextView
+            android:id="@+id/location_latitude_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/location_timestamp_textview"
+            android:textSize="18sp"
+            android:hint="@string/location_latitude_colon"/>
+
+        <TextView
+            android:id="@+id/location_latitude_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/location_latitude_static_textview"
+            android:textSize="18sp"
+            android:hint="Latitude"/>
+
+        <TextView
+            android:id="@+id/location_longitude_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/location_latitude_textview"
+            android:textSize="18sp"
+            android:hint="@string/location_longitude_colon"/>
+
+        <TextView
+            android:id="@+id/location_longitude_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/location_longitude_static_textview"
+            android:textSize="18sp"
+            android:hint="Longitude"/>
+
+        <TextView
+            android:id="@+id/location_altitude_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/location_longitude_textview"
+            android:textSize="18sp"
+            android:hint="@string/location_altitude_colon"/>
+
+        <TextView
+            android:id="@+id/location_altitude_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/location_altitude_static_textview"
+            android:textSize="18sp"
+            android:hint="Altitude"/>
+
+    </RelativeLayout>
+
+</ScrollView>

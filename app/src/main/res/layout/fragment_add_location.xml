@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddLocationFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor">
+
+        <TextView
+            android:id="@+id/location_latitude_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:hint="@string/location_latitude_colon"/>
+
+        <EditText
+            android:id="@+id/current_latitude_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/location_latitude_static_textview"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:hint="@string/current_latitude"/>
+
+
+        <TextView
+            android:id="@+id/location_longitude_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/current_latitude_edittext"
+            android:textSize="18sp"
+            android:hint="@string/location_longitude_colon"/>
+
+        <EditText
+            android:id="@+id/current_longitude_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/location_longitude_static_textview"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:hint="@string/current_longitude"/>
+
+        <TextView
+            android:id="@+id/location_altitude_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/current_longitude_edittext"
+            android:textSize="18sp"
+            android:hint="@string/location_latitude_colon"/>
+
+        <EditText
+            android:id="@+id/current_altitude_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/location_altitude_static_textview"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:hint="@string/current_altitude"/>
+
+        <TextView
+            android:id="@+id/location_timestamp_static_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/current_altitude_edittext"
+            android:textSize="18sp"
+            android:hint="@string/location_date_colon"/>
+
+        <EditText
+            android:id="@+id/current_timestamp_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/location_timestamp_static_textview"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:hint="@string/current_timestamp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:layout_below="@id/current_timestamp_edittext"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/button_background_enabled"
+                android:textColor="@color/whiteColor"
+                android:text="@string/cancel"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/button_background_enabled"
+                android:textColor="@color/whiteColor"
+                android:text="@string/save"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
